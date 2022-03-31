@@ -10,7 +10,7 @@ function change(){
 
 if(play1 > play2)
    { document.querySelector('h1').innerHTML="play1 won :)" 
-}else if(play2 < play1)
+}else if(play2 > play1)
     { document.querySelector('h1').innerHTML="play2 won :)";   
 }else
      {document.querySelector('h1').innerHTML="Draw";    }
